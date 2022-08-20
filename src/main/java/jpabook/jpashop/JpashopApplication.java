@@ -8,14 +8,6 @@ public class JpashopApplication {
 
     public static void main(String[] args) {
 
-        Hello hello = new Hello();
-
-        hello.setData("aa");
-
-        String helloStr = hello.getData();
-
-        System.out.println("helloStr = " + helloStr);
-
         SpringApplication.run(JpashopApplication.class, args);
     }
 
