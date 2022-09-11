@@ -15,4 +15,24 @@ public class HelloController {
         return "hello";
     }
 
+    public static void main(String[] args) {
+
+        int x = 10;
+        
+        int y = 200;
+        
+        int z = add(x,y);
+
+        System.out.println("z = " + z);
+        
+    }
+
+
+    private static  int add(int a, int b) {
+
+        int c = a + b;
+
+        return c;
+    }
+
 }
